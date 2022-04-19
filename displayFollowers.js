@@ -7,7 +7,7 @@ const display = (followers) => {
         <article class="card">
         <img src="${image}" alt="${name}"/>
         <h4>${name}</h4>
-        <a href="${url}" class="btn">View Profile</a>
+        <a href="${url}" target="_BLANK" class="btn">View Profile</a>
         </article>
         `
     }).join('')
